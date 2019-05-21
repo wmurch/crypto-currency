@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import DataContainer from './components/DataContainer'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return <DataContainer />
   }
 }
-
 export default App
