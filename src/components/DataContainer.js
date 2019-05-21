@@ -22,8 +22,7 @@ class DataContainer extends Component {
       })
   }
   componentDidMount() {
-    console.log('Data Mounted')
-    this.getCurrency()
+    setInterval(() => this.getCurrency(), 10000)
   }
   render() {
     return (
