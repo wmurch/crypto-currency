@@ -15,10 +15,12 @@ body {
 }
 h1 {
   background-color: #ffffff;
+  font-size: 4rem;
+  border: #000000;
 }
 table {
   margin-top: 10%;
-  background-color: #ffffff;
+  background-color: lightgreen;
   width: 60%;
   font-size: 2rem;
   justify-content: space-between;
