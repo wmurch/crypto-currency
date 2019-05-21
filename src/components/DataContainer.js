@@ -22,12 +22,13 @@ class DataContainer extends Component {
       })
   }
   componentDidMount() {
+    this.getCurrency()
     setInterval(() => this.getCurrency(), 10000)
   }
   render() {
     return (
       <>
-        <h1>CryptoCurrency Rates</h1>
+        <h1>Crypto Currency Rates</h1>
         <table>
           <tbody>
             <tr>
